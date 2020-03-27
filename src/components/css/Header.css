@@ -1,0 +1,38 @@
+header{
+    background-color:  #3a3761;
+    width:100vw;
+    height:7vh; 
+    position: fixed;
+    z-index: 9999;
+    top:0;
+    left:0;   
+    line-height: 7vh;
+    margin:0;
+}
+
+.center{
+    margin:auto;
+    left:45vw;
+}
+.nav-item{
+    color:#fff;
+    text-decoration: none;
+    opacity:0.8;
+    position: relative;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0rem 2rem 0rem 2rem;
+}
+.nav-item-right{
+    right:6vw;
+}
+.nav-item:hover{
+    opacity:1;
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    width:100%;
+    color:red;
+}

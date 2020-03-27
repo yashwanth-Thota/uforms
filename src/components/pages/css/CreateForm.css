@@ -1,0 +1,115 @@
+.hover{
+    -webkit-animation-name: expandLeft; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    animation-name: expandLeft;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+.unhover{
+    -webkit-animation-name: collapseLeft; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    animation-name: collapseLeft;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+.positionAbsoulteToRelative{
+    -webkit-animation-name: positionAbsoulteToRelative; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    animation-name: positionAbsoulteToRelative;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+.positionRelativeToAbsoulte{
+    -webkit-animation-name: positionRelativeToAbsoulte; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    animation-name: positionRelativeToAbsoulte;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+.modal{
+    display:none;
+}
+.close-btn{
+    font-size:3rem;
+    color:#fff;
+    position: absolute;
+    right:10vw;
+    top:10vh;
+}
+.form-editor{
+    display: block;
+    position: absolute;
+    padding: 1vw;
+    top:15vh;
+    left:15vw;
+    width: 70vw;
+}
+
+.form-preview{
+    display: block;
+    position: absolute;
+    padding: 5px;
+    top:25vh;
+    left:15vw;
+    width: 70vw;
+}
+.menu-icon{
+    color: #cccbdd;
+    font-size: 2.2rem;
+    position: absolute;
+    text-align: center;
+    left:1vw;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+.form-container{
+    background-color:#fff;
+    width: 40vw;
+    margin: auto;
+    padding: 1.2rem;
+    margin-top:18vh;
+}
+.alert{
+    position: absolute;
+    margin: auto;
+    bottom:15vh;
+    width:60vw ;
+    left:20vw;
+    background-color: rgba(0, 0, 0,0.8);
+    color: #fff;
+    padding:0.8rem;
+    border-radius: 0.2rem;
+    display: none;
+    font-size:1.2rem;
+    line-height: 3vh;
+}
+
+.alert-msg{
+    line-break: unset;
+}
+.alert:hover{
+    color:white;
+}
+.close{
+    top:1.2vh;
+    position: absolute;
+    right:4vw;
+    cursor: pointer;
+}
+@keyframes expandLeft{
+    from {width:4vw;}
+    to {width:12vw;}
+}
+@keyframes collapseLeft{
+    from {width:12vw;}
+    to {width:4vw;}
+}
+@keyframes positionAbsoulteToRelative{
+    from {position:"absolute"}
+    to {position:"relative"}
+}
+@keyframes positionRelativeToAbsoulte{
+    from {position:"relative"}
+    to {position:"absolute"}
+}

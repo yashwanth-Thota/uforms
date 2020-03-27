@@ -1,0 +1,68 @@
+.body{
+    width:95%;
+    margin:0;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.row{
+    display: flex;
+    width:99vw;
+}
+.col{
+    width: 100%;
+}
+.col-4{
+    width: 4vw;
+}
+.content{
+    width:100vw;
+    height: 93vh;
+}
+.right{
+    float: right;right:0;
+}
+.left{
+    float: left;left:0;
+}
+.absolute{
+    position: absolute;
+}
+.pointer{
+    cursor: pointer;
+}
+.shadow-light{
+    box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.shadow-dark{
+    box-shadow:0 4px 0 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.flex{
+    display: flex;
+}
+.rounded{
+    border-radius: 7px;
+}
+button:hover{
+    opacity: 0.9;
+}
+p{
+    margin:0;
+}
+form{
+    width:fit-content;
+    margin:auto;
+    padding: 1rem;
+}
+label{
+    line-height: 3vh;
+}
+input{
+}
+.hide{
+    display: none
+}
+.show{
+    display: block;
+}
