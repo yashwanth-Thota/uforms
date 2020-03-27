@@ -52,7 +52,7 @@ class Login extends Component {
                 <Container context='flex'>
                     <Button context='primary' type='submit' handler={this.singin} name='SIGN IN'/>
                     <GoogleLogin
-                        clientId="686724871088-68g59b3ev4fmv8vtn8u9r8iois1tp0oe.apps.googleusercontent.com"
+                        clientId="742959970187-cbni7avna6403i3l5fqhkosfgejr5ebg.apps.googleusercontent.com"
                         buttonText="Login"
                         onSuccess={(response)=>{this.loginSuccess(response.profileObj)}}
                         onFailure={this.loginFail}
