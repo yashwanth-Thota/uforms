@@ -35,8 +35,8 @@ export default function Field(props){
                     isValid=true
             }   
         })
-        if(!isValid) errorRef.current.classList.add('show')
-        else errorRef.current.classList.remove('show')
+        // if(!isValid) errorRef&&errorRef.current.classList.add('show')
+        // else errorRef&&errorRef.current.classList.remove('show')
         
     }
     const alertRequired=(e)=>{

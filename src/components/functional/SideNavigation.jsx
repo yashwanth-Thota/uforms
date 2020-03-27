@@ -47,7 +47,7 @@ export default function SideNav(props){
     return (
             <div style={sideNavStyle} className="shadow-dark col-4" ref={ref}>
                 <div className="menu-icon" onClick={()=>menuClick(0)}>&#8801;</div>
-                <div style={{height:'100%',marginTop:'3.5rem'}} className="col-4" onMouseOver={menuClick} onMouseLeave={menuClick}/>
+                <div style={{height:'100%',marginTop:'3.5rem'}} className="col-4"/>
             </div>
     )
 }

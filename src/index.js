@@ -14,8 +14,8 @@ const persistedState=()=>{
 }
 const store=createStore(userReducer,
             persistedState(),compose(
-            applyMiddleware(thunk),
-            window.window.__REDUX_DEVTOOLS_EXTENSION__&&window.__REDUX_DEVTOOLS_EXTENSION__()))
+            applyMiddleware(thunk)))
+            // window.window.__REDUX_DEVTOOLS_EXTENSION__&&window.__REDUX_DEVTOOLS_EXTENSION__()))
 function AppWithRedux(){
     return(
         <Provider store={store}>
