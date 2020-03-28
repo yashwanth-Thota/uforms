@@ -31,13 +31,13 @@ class CreateForm extends Component {
 
     componentDidMount(){
 
-        Axios.get('http://localhost:3001/forms/'+this.getFormId())
-        .then(res=>res.data)
-        .then(data=>{
-            this.setState({fields:data.fields})
-            this.setState({form:data})
-        })
-        .catch(err=>console.log(err))
+//         Axios.get('http://localhost:3001/forms/'+this.getFormId())
+//         .then(res=>res.data)
+//         .then(data=>{
+//             this.setState({fields:data.fields})
+//             this.setState({form:data})
+//         })
+//         .catch(err=>console.log(err))
     }
     setMenuStyle=(style)=>{
         if(style==='absolute'){
@@ -140,7 +140,7 @@ class CreateForm extends Component {
 
     createForm=()=>{
         Axios({
-            "url":"http://localhost:3001/forms/"+this.props.user.id,
+            "url":"http://localhost:3001/users/"+this.props.user.id+"/forms",
             "method":"POST",
             "data":{
                 'id':this.formId,
