@@ -14,6 +14,7 @@ class Login extends Component {
             id:profile.googleId,
             ...profile
         }
+        console.log(profile)
         Axios({
             'url':"http://localhost:3001/users/"+user.id,
             'method':'GET',
