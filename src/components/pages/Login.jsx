@@ -27,7 +27,7 @@ class Login extends Component {
             'url':"http://localhost:3001/users/",
             'method':'POST',
             'data':user
-        }).then(res=>{this.props.logIn(user)})
+        }).then(res=>{this.props.logIn(user)}).catch(err=>console.log(err))
     }
     loginFail=()=>{
         
