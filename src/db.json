@@ -15,16 +15,6 @@
   ],
   "users": [
     {
-      "id": "103971055502007251845",
-      "forms": [],
-      "googleId": "103971055502007251845",
-      "imageUrl": "https://lh4.googleusercontent.com/-6eweEHGUtHY/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3re9KGLrlhfrscz3cVsrLktRuR9D_g/s96-c/photo.jpg",
-      "email": "yashwanth.thota@ggktech.com",
-      "name": "Yashwanth Thota",
-      "givenName": "Yashwanth",
-      "familyName": "Thota"
-    },
-    {
       "id": "113952940884932248456",
       "googleId": "113952940884932248456",
       "imageUrl": "https://lh5.googleusercontent.com/-1v3QGquIiLY/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nAVdZkCS25kiynzS-GGeM6SqB-0kQ/s96-c/photo.jpg",
@@ -32,15 +22,6 @@
       "name": "bunny yashwanththotha",
       "givenName": "bunny",
       "familyName": "yashwanththotha"
-    },
-    {
-      "id": "103603963692327175596",
-      "googleId": "103603963692327175596",
-      "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GhHO1noP51UENCP7LU9YXLXGRL8D6iFfoupGPPZ=s96-c",
-      "email": "shravan.kamidi.consultant@nielsen.com",
-      "name": "Shravan Kamidi",
-      "givenName": "Shravan",
-      "familyName": "Kamidi"
     }
   ]
 }
